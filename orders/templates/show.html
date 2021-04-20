@@ -1,0 +1,129 @@
+{% extends 'layout.html' %}
+
+{% load i18n %}
+
+{% load staticfiles %}
+
+{% block title %} {% trans "Print Order" %} {% endblock %}
+
+{% block body %}
+
+            {% for order in order %}
+                <section>
+                    <div class="section-header">
+						<ol class="breadcrumb">
+							<li class="active">{% trans "Invoice" %}</li>
+						</ol>
+					</div>
+					<div class="section-body">
+                        <div class="row">
+							<div class="col-lg-12">
+								<div class="card card-printable style-default-light">
+									<div class="card-head">
+										<div class="tools">
+											<div class="btn-group">
+												<a class="btn btn-floating-action btn-primary" href="javascript:void(0);" onclick="window.print();"><i class="md md-print"></i></a>
+											</div>
+										</div>
+									</div><!--end .card-head -->
+									<div class="card-body style-default-bright" id="print">
+
+										<!-- BEGIN INVOICE HEADER -->
+										<div class="row">
+											<!--<div class="col-xs-2">
+                                                <img src="{% static 'img/savane11.png' %}" class="invoice_logo" align="center" width="20%">
+											</div>-->
+
+											<div class="col-xs-8">
+												<h1 class="text-light" style="margin-top: 0px; color: #f70b0b"><img src="{% static 'img/savane11.png' %}"></h1>
+                                                <p>Address : Kofrou S/p Cissela, Kouroussa
+                                                    <br>Route Nationale No1, Rep. De Guinée
+                                                    <br>Contact : +1 (438)-506-5814, Email: info@savane.com</p>
+											</div>
+											<div class="col-xs-4 text-right">
+												<h1 class="text-light text-default-light">Invoice</h1>
+											</div>
+										</div><!--end .row -->
+										<!-- END INVOICE HEADER -->
+
+										<br/>
+
+										<!-- BEGIN INVOICE DESCRIPTION -->
+										<div class="row">
+											<div class="col-xs-8">
+												<h4 class="text-light">{% trans "Prepared for" %}</h4>
+												<address>
+													<div class="pull-left"> Client: </div> &nbsp;<strong>{{ order.name }}</strong><br>
+													<div class="pull-left"> Address: </div> &nbsp;{{ order.address }}<br>
+													<b>Phone:</b> {{ order.phone }}
+												</address>
+											</div><!--end .col -->
+											<div class="col-xs-4">
+												<div class="well">
+													<div class="clearfix">
+														<div class="pull-left"> INVOICE NO : </div>
+														<div class="pull-right"> {{ order.id }} </div>
+													</div>
+													<div class="clearfix">
+														<div class="pull-left"> INVOICE DATE : </div>
+														<div class="pull-right">  </div>
+													</div>
+													<div class="clearfix">
+														<div class="pull-left"> {% trans "DELEVERY DATE :" %} </div>
+														<div class="pull-right"> {{ order.delivery_date }} </div>
+													</div>
+												</div>
+											</div><!--end .col -->
+										</div><!--end .row -->
+										<!-- END INVOICE DESCRIPTION -->
+
+										<br/>
+
+										<!-- BEGIN INVOICE PRODUCTS -->
+										<div class="row">
+											<div class="col-md-12">
+												<table class="table">
+													<thead>
+														<tr>
+															<th style="width:60px" class="text-center">ID</th>
+															<th class="text-left">{% trans "ITEM(S)" %}</th>
+															<th style="width:140px" class="text-right"></th>
+															<th style="width:90px" class="text-right">{% trans "TOTAL" %}</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td class="text-center">1</td>
+															<td>{{ order.product_id }} | {{ order.no_of_trays }} TRAYS</td>
+															<td class="text-right"></td>
+															<td class="text-right">GNF {{ order.amount }}</td>
+														</tr>
+														<tr>
+															<td colspan="2" rowspan="4">
+																<h3 class="text-light opacity-50">Invoice notes</h3>
+																<p><small>{% trans "Our Service Levels are designed to give you the greatest value and flexibility of service" %}<br>
+                                                                    {% trans "THANK YOU FOR YOUR BUSINESS" %}
+                                                                </small></p>
+																<p><strong><em>{% trans "Received By" %}&nbsp;<u>{{ order.name }}</u></em></strong></p>
+															</td>
+															<td class="text-left"><strong class="text-lg-left text-accent">{% trans "TOTAL" %}</strong></td>
+															<td class="text-right"><strong class="text-lg-right text-accent">GNF {{ order.total }}</strong></td>
+														</tr>
+														<tr>
+
+														</tr>
+													</tbody>
+												</table>
+											</div><!--end .col -->
+										</div><!--end .row -->
+										<!-- END INVOICE PRODUCTS -->
+
+									</div><!--end .card-body -->
+								</div><!--end .card -->
+							</div><!--end .col -->
+						</div><!--end .row -->
+					</div><!--end .section-body -->
+                </section>
+            {% endfor %}
+
+{% endblock %}

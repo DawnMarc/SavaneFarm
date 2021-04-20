@@ -1,0 +1,1272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-18 21:39+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\orders\templates\about.html:19 .\orders\templates\about.html:204
+#: .\orders\templates\contact.html:18
+#: .\orders\templates\index-food-shop.html:21 .\orders\templates\layout.html:9
+#: .\orders\templates\registration\index-food-shop.html:21
+#, fuzzy
+#| msgid "Welcome to Lasavane Poultry Farm"
+msgid "Savane Poultry Farm"
+msgstr "Bienvenue à la Ferme de Lasavane"
+
+#: .\orders\templates\about.html:110 .\orders\templates\contact.html:105
+#: .\orders\templates\contact.html:140
+#: .\orders\templates\index-food-shop.html:106
+#: .\orders\templates\index-food-shop.html:143
+#: .\orders\templates\registration\index-food-shop.html:106
+#: .\orders\templates\registration\index-food-shop.html:143
+msgid "Home"
+msgstr "Accueil"
+
+#: .\orders\templates\about.html:111 .\orders\templates\contact.html:106
+#: .\orders\templates\contact.html:143
+#: .\orders\templates\index-food-shop.html:107
+#: .\orders\templates\index-food-shop.html:146
+#: .\orders\templates\registration\index-food-shop.html:107
+#: .\orders\templates\registration\index-food-shop.html:146
+msgid "About Us"
+msgstr "À propos de"
+
+#: .\orders\templates\about.html:112 .\orders\templates\all_customer.html:27
+#: .\orders\templates\all_supplier.html:28 .\orders\templates\contact.html:107
+#: .\orders\templates\index-food-shop.html:108
+#: .\orders\templates\registration\index-food-shop.html:108
+msgid "Contact"
+msgstr "Contact"
+
+#: .\orders\templates\about.html:118 .\orders\templates\about.html:164
+#: .\orders\templates\contact.html:113 .\orders\templates\contact.html:153
+#: .\orders\templates\index-food-shop.html:114
+#: .\orders\templates\index-food-shop.html:156
+#: .\orders\templates\registration\index-food-shop.html:114
+#: .\orders\templates\registration\index-food-shop.html:156
+#: .\orders\templates\registration\login.html:11
+#: .\orders\templates\registration\login.html:76
+msgid "Login"
+msgstr "Connexion"
+
+#: .\orders\templates\about.html:161 .\orders\templates\contact.html:110
+#: .\orders\templates\contact.html:150
+#: .\orders\templates\index-food-shop.html:111
+#: .\orders\templates\index-food-shop.html:153
+#: .\orders\templates\registration\index-food-shop.html:111
+#: .\orders\templates\registration\index-food-shop.html:153
+msgid "Farm System"
+msgstr "Système agricole"
+
+#: .\orders\templates\about.html:177 .\orders\templates\contact.html:165
+#: .\orders\templates\index-food-shop.html:169
+#: .\orders\templates\registration\index-food-shop.html:169
+msgid "Made by OMICRON"
+msgstr ""
+
+#: .\orders\templates\about.html:200
+#: .\orders\templates\index-food-shop.html:541
+#: .\orders\templates\registration\index-food-shop.html:541
+msgid "About Our Farm"
+msgstr "À propos de Notre Ferme"
+
+#: .\orders\templates\about.html:204
+msgid "was founded in 2021 by "
+msgstr ""
+
+#: .\orders\templates\about.html:206
+msgid ""
+"with 1,300 laying hens and 3 full-time employees, after the donation of 2 "
+"hectares in 2019 by the village Kofrou."
+msgstr ""
+
+#: .\orders\templates\about.html:210
+msgid ""
+"The name Savane is the result of a pun between the surname of its founder "
+"and the great African Savannah."
+msgstr ""
+
+#: .\orders\templates\about.html:211
+msgid "It is a family business with an entrepreneurial and community spirit."
+msgstr ""
+
+#: .\orders\templates\about.html:213
+msgid ""
+"We have specialized in beef production, animal husbandry and agriculture for "
+"generations."
+msgstr ""
+
+#: .\orders\templates\about.html:217
+#, python-format
+msgid ""
+"Our laying hens are fed 65%% of locally produced cereals, of which we grow "
+"about 10%% ourselves and the rest comes from other local farmers within the "
+"community."
+msgstr ""
+
+#: .\orders\templates\about.html:221
+msgid ""
+"The start of this poultry activity is only the fruit of our dynamism, the "
+"aim of which is to maintain our ancestral activity and modernize it while "
+"offering you a quality product."
+msgstr ""
+
+#: .\orders\templates\about.html:222
+msgid ""
+"We produce our eggs in such a way as to preserve its attractions as the most "
+"complete and nutritious foods."
+msgstr ""
+
+#: .\orders\templates\about.html:230
+msgid "Strategic targets:"
+msgstr ""
+
+#: .\orders\templates\about.html:231
+msgid ""
+"We would like to be among the leaders and trend-setters in the sector by "
+"2026 through advancing in the following ways"
+msgstr ""
+
+#: .\orders\templates\about.html:234
+#, fuzzy
+#| msgid "SOLUTIONS"
+msgid "PRODUCTION"
+msgstr "SOLUTIONS"
+
+#: .\orders\templates\about.html:237
+#, python-format
+msgid "Ensure the production of chicks at 100%%"
+msgstr ""
+
+#: .\orders\templates\about.html:238
+#, python-format
+msgid "Increase the number of layers by 700%% (1,300 to 10,000)"
+msgstr ""
+
+#: .\orders\templates\about.html:239
+#, python-format
+msgid "Improve the laying rate from 65%% to 82%%"
+msgstr ""
+
+#: .\orders\templates\about.html:244
+msgid "SHED"
+msgstr ""
+
+#: .\orders\templates\about.html:247
+msgid "Construction of a new 75m / 12m shed"
+msgstr ""
+
+#: .\orders\templates\about.html:248
+msgid "Installation of cage batteries"
+msgstr ""
+
+#: .\orders\templates\about.html:253
+msgid "INCUBATOR"
+msgstr ""
+
+#: .\orders\templates\about.html:256
+msgid "Purchase of an incubator with 5,200 eggs capacity"
+msgstr ""
+
+#: .\orders\templates\about.html:261
+msgid "ELECTRICITY"
+msgstr ""
+
+#: .\orders\templates\about.html:264
+#, python-format
+msgid "100%% solar electricity production"
+msgstr ""
+
+#: .\orders\templates\about.html:269
+msgid "SHAREHOLDERS"
+msgstr ""
+
+#: .\orders\templates\about.html:272
+#, python-format
+msgid "Increase revenues 26%% and net profit by 15%%"
+msgstr ""
+
+#: .\orders\templates\about.html:273
+msgid "Launch new products"
+msgstr ""
+
+#: .\orders\templates\about.html:291
+msgid "Who We Are?"
+msgstr "Qui nous sommes"
+
+#: .\orders\templates\about.html:299
+msgid "How We Do?"
+msgstr "Comment Nous Faisons"
+
+#: .\orders\templates\about.html:307
+msgid "What We Grow?"
+msgstr "Ce que nous cultivons"
+
+#: .\orders\templates\about.html:424
+msgid "Made With Love By"
+msgstr "Fait Avec Amour Par"
+
+#: .\orders\templates\all_customer.html:5 .\orders\templates\layout.html:189
+msgid "All Customers"
+msgstr "Tous les Clients"
+
+#: .\orders\templates\all_customer.html:15
+#, fuzzy
+#| msgid "All Customers"
+msgid "All Customer Data"
+msgstr "Tous les Clients"
+
+#: .\orders\templates\all_customer.html:26 .\orders\templates\customer.html:26
+#: .\orders\templates\index.html:26
+#, fuzzy
+#| msgid "Last Name"
+msgid "Name"
+msgstr "Nom de famille"
+
+#: .\orders\templates\all_customer.html:28
+#: .\orders\templates\all_staff.html:29
+#: .\orders\templates\all_supplier.html:29 .\orders\templates\customer.html:28
+#: .\orders\templates\edit.html:42 .\orders\templates\expense.html:29
+#: .\orders\templates\index.html:28 .\orders\templates\inventory.html:29
+#: .\orders\templates\new.html:42 .\orders\templates\staff.html:29
+#: .\orders\templates\supplier.html:29
+#, fuzzy
+#| msgid "Add Order"
+msgid "Address"
+msgstr "Ajouter une Commande"
+
+#: .\orders\templates\all_customer.html:29
+#: .\orders\templates\all_staff.html:30
+#: .\orders\templates\all_supplier.html:30 .\orders\templates\customer.html:29
+#: .\orders\templates\expense.html:30 .\orders\templates\inventory.html:30
+#: .\orders\templates\staff.html:30 .\orders\templates\supplier.html:30
+msgid "E-mail"
+msgstr "E-mail"
+
+#: .\orders\templates\all_customer.html:30
+#: .\orders\templates\all_expense.html:30
+#: .\orders\templates\all_inventory.html:31
+#: .\orders\templates\all_staff.html:32
+#: .\orders\templates\all_supplier.html:31 .\orders\templates\customer.html:30
+#: .\orders\templates\expense.html:32 .\orders\templates\index.html:34
+#: .\orders\templates\inventory.html:32 .\orders\templates\staff.html:32
+#: .\orders\templates\supplier.html:32
+msgid "Buttons"
+msgstr "Touches"
+
+#: .\orders\templates\all_expense.html:5 .\orders\templates\layout.html:214
+msgid "Expenses"
+msgstr "Dépenses"
+
+#: .\orders\templates\all_expense.html:15
+#, fuzzy
+#| msgid "All Expenses"
+msgid "All Expense Data"
+msgstr "Toutes les Dépenses"
+
+#: .\orders\templates\all_expense.html:26
+#, fuzzy
+#| msgid "Expenses"
+msgid "Expense"
+msgstr "Dépenses"
+
+#: .\orders\templates\all_expense.html:27
+#: .\orders\templates\all_supplier.html:27
+#: .\orders\templates\newexpense.html:39
+msgid "Description"
+msgstr "Description"
+
+#: .\orders\templates\all_expense.html:28
+#, fuzzy
+#| msgid "Amount"
+msgid "Amount (GNF)"
+msgstr "Montant"
+
+#: .\orders\templates\all_expense.html:29
+#: .\orders\templates\editexpense.html:49
+#: .\orders\templates\editinventory.html:58
+#: .\orders\templates\new_inventory.html:58
+#: .\orders\templates\newexpense.html:49
+msgid "Date"
+msgstr "Date"
+
+#: .\orders\templates\all_inventory.html:5 .\orders\templates\layout.html:229
+msgid "Inventory"
+msgstr "Inventaire"
+
+#: .\orders\templates\all_inventory.html:15
+#, fuzzy
+#| msgid "Inventory"
+msgid "All Inventory Data"
+msgstr "Inventaire"
+
+#: .\orders\templates\all_inventory.html:26
+#, fuzzy
+#| msgid "First Name"
+msgid "Product Name"
+msgstr "Nom du Produit"
+
+#: .\orders\templates\all_inventory.html:27
+msgid "Price per Unit"
+msgstr "Prix par unité"
+
+#: .\orders\templates\all_inventory.html:28
+#: .\orders\templates\editinventory.html:50
+#: .\orders\templates\new_inventory.html:50
+msgid "Quantity"
+msgstr "Quantité"
+
+#: .\orders\templates\all_inventory.html:29
+#: .\orders\templates\all_supplier.html:26
+#, fuzzy
+#| msgid "Suppliers"
+msgid "Supplier's Name"
+msgstr "Non du Fournisseurs"
+
+#: .\orders\templates\all_inventory.html:30
+msgid "Date of Purchase"
+msgstr "Date d’achat"
+
+#: .\orders\templates\all_staff.html:5
+msgid "All Staff"
+msgstr "Tout le Personnel"
+
+#: .\orders\templates\all_staff.html:15
+#, fuzzy
+#| msgid "Savane Staff Data"
+msgid "All Staff Data"
+msgstr "Données du Personnel la Savane"
+
+#: .\orders\templates\all_staff.html:26 .\orders\templates\contact.html:250
+#: .\orders\templates\editemployee.html:34 .\orders\templates\expense.html:26
+#: .\orders\templates\inventory.html:26 .\orders\templates\new_staff.html:34
+#: .\orders\templates\staff.html:26 .\orders\templates\supplier.html:26
+msgid "First Name"
+msgstr "Prénom"
+
+#: .\orders\templates\all_staff.html:27 .\orders\templates\contact.html:253
+#: .\orders\templates\editemployee.html:38 .\orders\templates\expense.html:27
+#: .\orders\templates\inventory.html:27 .\orders\templates\new_staff.html:38
+#: .\orders\templates\staff.html:27 .\orders\templates\supplier.html:27
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: .\orders\templates\all_staff.html:28 .\orders\templates\customer.html:27
+#: .\orders\templates\expense.html:28 .\orders\templates\inventory.html:28
+#: .\orders\templates\staff.html:28 .\orders\templates\supplier.html:28
+msgid "Tel"
+msgstr "Tel"
+
+#: .\orders\templates\all_staff.html:31 .\orders\templates\expense.html:31
+#: .\orders\templates\inventory.html:31 .\orders\templates\staff.html:31
+#: .\orders\templates\supplier.html:31
+msgid "Role"
+msgstr "Rôle"
+
+#: .\orders\templates\all_supplier.html:5 .\orders\templates\layout.html:204
+msgid "All Suppliers"
+msgstr "Tous les Fournisseurs"
+
+#: .\orders\templates\all_supplier.html:15
+#, fuzzy
+#| msgid "All Suppliers"
+msgid "All Supplier Data"
+msgstr "Tous les Fournisseurs"
+
+#: .\orders\templates\change_password.html:9
+#: .\orders\templates\change_password.html:21
+msgid "Edit User"
+msgstr "Modifier l’utilisateur"
+
+#: .\orders\templates\change_password.html:42
+#: .\orders\templates\layout.html:69 .\orders\templates\layout.html:248
+msgid "Change Password"
+msgstr "Changer ton Mot de passe"
+
+#: .\orders\templates\change_password.html:45
+#, fuzzy
+#| msgid "Change Password"
+msgid "Old Password"
+msgstr "Changer ton Mot de passe"
+
+#: .\orders\templates\change_password.html:49
+#, fuzzy
+#| msgid "Change Password"
+msgid "New Password"
+msgstr "Changer ton Mot de passe"
+
+#: .\orders\templates\change_password.html:50
+msgid "Password must contain at least 8 characters."
+msgstr "Le mot de passe doit contenir au moins 8 caractères."
+
+#: .\orders\templates\change_password.html:54
+#, fuzzy
+#| msgid "Change Password"
+msgid "Confirm Password"
+msgstr "Changer ton Mot de passe"
+
+#: .\orders\templates\collect_now.html:7
+#, fuzzy
+#| msgid "Add Day's Collection"
+msgid "Add Egg Collections"
+msgstr "Ajouter Ramassage du jour"
+
+#: .\orders\templates\collect_now.html:19
+#, fuzzy
+#| msgid "Add Day's Collection"
+msgid "Add Egg Collection"
+msgstr "Ajouter Ramassage du jour"
+
+#: .\orders\templates\collect_now.html:31
+#: .\orders\templates\collect_now.html:34
+msgid "Total Eggs Layed"
+msgstr "Total d’œufs Pondis"
+
+#: .\orders\templates\collect_now.html:38
+msgid "Number of trays Collected"
+msgstr "Nombre de plateaux collectés"
+
+#: .\orders\templates\collect_now.html:42
+msgid "Totals Number of Damaged Eggs"
+msgstr "Nombre de plateaux collectés"
+
+#: .\orders\templates\collect_now.html:46
+#, fuzzy
+#| msgid "All Collections"
+msgid "Egg Collection Info"
+msgstr "Toutes les Colletes"
+
+#: .\orders\templates\collect_now.html:49
+#, fuzzy
+#| msgid "All Collections"
+msgid "Collection Date"
+msgstr "Toutes les Colletes"
+
+#: .\orders\templates\collections.html:5
+#, fuzzy
+#| msgid "All Collections"
+msgid "All Egg Collections"
+msgstr "Toutes les Colletes"
+
+#: .\orders\templates\collections.html:15
+#, fuzzy
+#| msgid "All Collections"
+msgid "Egg Collection Data"
+msgstr "Toutes les Colletes"
+
+#: .\orders\templates\collections.html:26
+msgid "Eggs Collected"
+msgstr "Oeufs Recueillis"
+
+#: .\orders\templates\collections.html:27
+msgid "Trays Obtained"
+msgstr "Plateaux Obtenus"
+
+#: .\orders\templates\collections.html:28
+msgid "Damaged Eggs"
+msgstr "Oeufs Endommagés"
+
+#: .\orders\templates\collections.html:29
+msgid "Collection Date Details"
+msgstr "Détails de la date de collecte"
+
+#: .\orders\templates\contact.html:146
+#: .\orders\templates\index-food-shop.html:149
+#: .\orders\templates\registration\index-food-shop.html:149
+msgid "Contact Us"
+msgstr "Nous Contacter"
+
+#: .\orders\templates\contact.html:218
+#: .\orders\templates\index-food-shop.html:526
+#: .\orders\templates\registration\index-food-shop.html:526
+msgid "CONTACT US"
+msgstr "NOUS CONTACTER"
+
+#: .\orders\templates\contact.html:220
+msgid "Get"
+msgstr ""
+
+#: .\orders\templates\contact.html:221
+msgid "In Touch"
+msgstr ""
+
+#: .\orders\templates\contact.html:225
+msgid ""
+"Lorem ipsum is simply dummy text of the printing and typesetting industry. "
+"Lorem Ipsum has been the industry’s standard."
+msgstr ""
+
+#: .\orders\templates\contact.html:229
+msgid "GUINEA CONAKRY"
+msgstr ""
+
+#: .\orders\templates\contact.html:242
+msgid "Leave Message"
+msgstr ""
+
+#: .\orders\templates\contact.html:259
+msgid "Subject"
+msgstr ""
+
+#: .\orders\templates\contact.html:262
+msgid "Message"
+msgstr ""
+
+#: .\orders\templates\contact.html:265
+msgid "SUBMIT"
+msgstr ""
+
+#: .\orders\templates\contact.html:302
+#: .\orders\templates\index-food-shop.html:637
+#: .\orders\templates\registration\index-food-shop.html:647
+msgid "Made By"
+msgstr ""
+
+#: .\orders\templates\customer.html:5 .\orders\templates\customer.html:15
+#, fuzzy
+#| msgid "Savane Staff Data"
+msgid "Savane Customer Data"
+msgstr "Données du personnel la Savane"
+
+#: .\orders\templates\edit.html:7
+#, fuzzy
+#| msgid "Add Order"
+msgid "Edit Order"
+msgstr "Modifier l’ordre"
+
+#: .\orders\templates\edit.html:19 .\orders\templates\layout.html:143
+#: .\orders\templates\new.html:19
+msgid "Add Order"
+msgstr "Ajouter une Commande"
+
+#: .\orders\templates\edit.html:31 .\orders\templates\new.html:31
+#, fuzzy
+#| msgid "Customers"
+msgid "Customer Info"
+msgstr "Clients"
+
+#: .\orders\templates\edit.html:34 .\orders\templates\new.html:34
+#, fuzzy
+#| msgid "Customers"
+msgid "Customer Name"
+msgstr "Nom du Client"
+
+#: .\orders\templates\edit.html:38 .\orders\templates\new.html:38
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+#: .\orders\templates\edit.html:46 .\orders\templates\new.html:46
+#, fuzzy
+#| msgid "Order"
+msgid "Order Info"
+msgstr "Informations sur les commander"
+
+#: .\orders\templates\edit.html:49 .\orders\templates\index.html:29
+#: .\orders\templates\new.html:49
+msgid "Delivery Date"
+msgstr "Date de livraison"
+
+#: .\orders\templates\edit.html:53 .\orders\templates\new.html:53
+msgid "Product ID"
+msgstr "Product ID"
+
+#: .\orders\templates\edit.html:59 .\orders\templates\new.html:59
+msgid "Payment Options"
+msgstr "Options de paiement"
+
+#: .\orders\templates\edit.html:66 .\orders\templates\new.html:67
+msgid "Price Per Tray"
+msgstr "Prix par plateau"
+
+#: .\orders\templates\edit.html:73 .\orders\templates\new.html:74
+msgid "Price per Egg"
+msgstr "Prix par Oeuf"
+
+#: .\orders\templates\edit.html:80 .\orders\templates\new.html:81
+msgid "Number of Trays"
+msgstr "Nombre de plateaux"
+
+#: .\orders\templates\edit.html:86 .\orders\templates\editexpense.html:43
+#: .\orders\templates\newexpense.html:44
+msgid "Amount"
+msgstr "Montant"
+
+#: .\orders\templates\edit.html:94 .\orders\templates\new.html:89
+msgid "Order Status :"
+msgstr "État"
+
+#: .\orders\templates\editemployee.html:7
+msgid "Edit Staff"
+msgstr "Modifier les personnel"
+
+#: .\orders\templates\editemployee.html:19
+#, fuzzy
+#| msgid "Savane Staff Data"
+msgid "Edit Staff Data"
+msgstr "Modifier les données du personnel"
+
+#: .\orders\templates\editemployee.html:42
+#: .\orders\templates\editsupplier.html:42
+#: .\orders\templates\new_staff.html:42
+#: .\orders\templates\new_supplier.html:42
+msgid "Telephone Number"
+msgstr "Numéro de téléphone"
+
+#: .\orders\templates\editemployee.html:50
+#: .\orders\templates\new_staff.html:50
+#, fuzzy
+#| msgid "Add Order"
+msgid "Home Address"
+msgstr "Ajouter une Commande"
+
+#: .\orders\templates\editemployee.html:54
+#: .\orders\templates\new_staff.html:54
+#, fuzzy
+#| msgid "Add Order"
+msgid "Email Address"
+msgstr "Ajouter une Commande"
+
+#: .\orders\templates\editemployee.html:58
+#: .\orders\templates\new_staff.html:58
+msgid "Staff Role"
+msgstr "Rôle"
+
+#: .\orders\templates\editexpense.html:7
+#: .\orders\templates\editexpense.html:19
+#, fuzzy
+#| msgid "Add Expense"
+msgid "Edit Expense"
+msgstr "Ajouter Dépenses"
+
+#: .\orders\templates\editexpense.html:34
+#: .\orders\templates\newexpense.html:34
+#, fuzzy
+#| msgid "Description of Expense"
+msgid "Type of Expense"
+msgstr "Rôle du Personnel"
+
+#: .\orders\templates\editexpense.html:39
+msgid "Description of Expense"
+msgstr "Rôle du Personnel"
+
+#: .\orders\templates\editinventory.html:7
+#, fuzzy
+#| msgid "Inventory"
+msgid "Edit Inventory Data"
+msgstr "Inventaire"
+
+#: .\orders\templates\editinventory.html:19
+msgid "Edit Items Already In Inventory"
+msgstr "Modifier les articles déjà en inventaire"
+
+#: .\orders\templates\editinventory.html:34
+#: .\orders\templates\new_inventory.html:34
+msgid "Name of Product"
+msgstr "Nom du produit"
+
+#: .\orders\templates\editinventory.html:38
+#: .\orders\templates\new_inventory.html:38
+msgid "Product Category"
+msgstr "Catégorie de produit"
+
+#: .\orders\templates\editinventory.html:42
+#: .\orders\templates\new_inventory.html:42
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+#: .\orders\templates\editinventory.html:54
+#: .\orders\templates\editsupplier.html:34
+#: .\orders\templates\new_inventory.html:54
+#: .\orders\templates\new_supplier.html:34
+#, fuzzy
+#| msgid "Add Supplier"
+msgid "Name of Supplier"
+msgstr "Ajouter Fournisseur"
+
+#: .\orders\templates\editsupplier.html:7
+#: .\orders\templates\editsupplier.html:19
+#, fuzzy
+#| msgid "Add Supplier"
+msgid "Edit Supplier Data"
+msgstr "Ajouter Fournisseur"
+
+#: .\orders\templates\editsupplier.html:38
+#: .\orders\templates\new_supplier.html:38
+msgid "Description of Supplier"
+msgstr "Description du fournisseur"
+
+#: .\orders\templates\editsupplier.html:50
+#: .\orders\templates\new_supplier.html:50
+#, fuzzy
+#| msgid "Suppliers"
+msgid "Supplier's Address"
+msgstr "Address du Fournisseurs"
+
+#: .\orders\templates\editsupplier.html:54
+#: .\orders\templates\new_supplier.html:54
+#, fuzzy
+#| msgid "Suppliers"
+msgid "Supplier's E-mail"
+msgstr "E-mail du Fournisseurs"
+
+#: .\orders\templates\expense.html:15
+#, fuzzy
+#| msgid "Savane Staff Data"
+msgid "Savane Expense Data"
+msgstr "Données du personnel la Savane"
+
+#: .\orders\templates\index-food-shop.html:220
+#: .\orders\templates\registration\index-food-shop.html:220
+msgid "Stay Healthy With"
+msgstr "Restez en Bonne Santé Avec"
+
+#: .\orders\templates\index-food-shop.html:241
+#: .\orders\templates\registration\index-food-shop.html:241
+msgid "Natural Hens"
+msgstr "Poules Naturelles"
+
+#: .\orders\templates\index-food-shop.html:260
+#: .\orders\templates\registration\index-food-shop.html:260
+msgid ""
+"The most common and widely raised poultry birds are chickens. About 5 "
+"thousand chickens are being raised every year as a source of food i.e both "
+"meat and eggs"
+msgstr ""
+"Les volailles les plus courantes et les plus élevées sont les pouletsEnviron "
+"5 Des milliers de poulets sont élevés chaque année comme source de "
+"nourriture (protéine), provenant à la foisde leur viande et œufs"
+
+#: .\orders\templates\index-food-shop.html:310
+#: .\orders\templates\registration\index-food-shop.html:310
+msgid "We Deliver Organic Eggs."
+msgstr "Nous Livrons des Oeufs Bio"
+
+#: .\orders\templates\index-food-shop.html:333
+#: .\orders\templates\registration\index-food-shop.html:333
+msgid "Highly Nutritious"
+msgstr "Très Nutritif"
+
+#: .\orders\templates\index-food-shop.html:356
+#: .\orders\templates\registration\index-food-shop.html:356
+msgid ""
+"High quality eggs produced by proper management of the hens and controlling "
+"the value chain of the poultry to ensure consistent production and reliable "
+"quality."
+msgstr ""
+"Œufs de haute qualité produits par une bonne gestion des poules etune "
+"alimentation saine de nos poules,ce qui nous permet de controler la chaîne "
+"de valeur de la ferme et quarantie une productionohérente et fiable de nos "
+"produits"
+
+#: .\orders\templates\index-food-shop.html:410
+#: .\orders\templates\registration\index-food-shop.html:410
+msgid "We care for you"
+msgstr "Nous prenons soin de vous"
+
+#: .\orders\templates\index-food-shop.html:433
+#: .\orders\templates\registration\index-food-shop.html:433
+msgid "Natural and Fresh Eggs"
+msgstr "Oeufs Naturels et Frais"
+
+#: .\orders\templates\index-food-shop.html:455
+#: .\orders\templates\registration\index-food-shop.html:455
+#, fuzzy
+#| msgid ""
+#| "Professional handling to produce nutritious products for our clients over "
+msgid ""
+"Professional handling to produce nutritious products for our clients over "
+"years"
+msgstr ""
+"Nous manageons profesionnellement nos inventaires par la methode de gestion "
+"premier rentré et years premier sorti pour assurer et maintenir les valeurs "
+"nutritives de nos produits"
+
+#: .\orders\templates\index-food-shop.html:505
+#: .\orders\templates\registration\index-food-shop.html:505
+msgid "FREE DELIVERY"
+msgstr "Livraison Gratuite"
+
+#: .\orders\templates\index-food-shop.html:506
+#: .\orders\templates\registration\index-food-shop.html:506
+msgid "ON ORDERS ABOVE $100"
+msgstr "SUR LES COMMANDES DE PLUS DE $ 100 $"
+
+#: .\orders\templates\index-food-shop.html:512
+#: .\orders\templates\registration\index-food-shop.html:512
+msgid "24/7 SUPPORT"
+msgstr "ASSISTANCE 24/7"
+
+#: .\orders\templates\index-food-shop.html:513
+#: .\orders\templates\registration\index-food-shop.html:513
+msgid "CALL TO PLACE YOUR ORDER"
+msgstr "APPELEZ; PASSER VOTRE COMMANDE"
+
+#: .\orders\templates\index-food-shop.html:519
+#: .\orders\templates\registration\index-food-shop.html:519
+msgid "CONSISTENCY"
+msgstr "UNIFORMITÉ"
+
+#: .\orders\templates\index-food-shop.html:520
+#: .\orders\templates\registration\index-food-shop.html:520
+#, python-format
+msgid "100%% RELIABILITY"
+msgstr "100%% FIABLE"
+
+#: .\orders\templates\index-food-shop.html:545
+msgid "Savane Poultry Farm is all about using modern methods in farming and"
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:546
+msgid ""
+"agriculture worldwide.Modern farming methods help to grow the poultry "
+"business profit"
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:547
+msgid ""
+"more than traditional rearing methods. We believe that sufficient "
+"information is a must"
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:548
+msgid "for agricultural or farming revolution."
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:550
+msgid ""
+"Most farmers around the world are using traditional farming methods which"
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:551
+msgid ""
+"they inherited from their family. Those farmers are not gaining desired "
+"production and"
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:552
+msgid ""
+"output of their labor. By using modern farming methods and the latest "
+"technology in farming,"
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:553
+msgid ""
+"they can increase their production and profits many times, more than ever."
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:555
+msgid ""
+"Modern farming can also be a great source of employment and income. "
+"Unemployed"
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:556
+msgid ""
+"people can start agribusiness and make a strong economy and hunger free "
+"world. If you have any"
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:557
+msgid ""
+"questions, suggestions, or want to share your farming experiences, then feel "
+"free to contact us"
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:558
+msgid "at info@savane.com"
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:579
+#: .\orders\templates\registration\index-food-shop.html:579
+#, fuzzy
+#| msgid "The Best Eggs!"
+msgid "The Best Farm Eggs!"
+msgstr "Les Meilleurs Oeufs!"
+
+#: .\orders\templates\index-food-shop.html:580
+msgid ""
+"The best eggs you can trust - eating. Savane eggs from properly raised hens "
+"are the most nutritious and tastiest."
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:581
+msgid ""
+"Our hens have are fed properly with locally grown feeds which makes the egg "
+"yolk so golden. Our eggs are certified humane and the starndard is the same "
+"throughout our products"
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:596
+msgid "COMMUNITY BASED ENTERPRENUERSHIP!"
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:597
+msgid "I had never quite thought about poultry farming in this way."
+msgstr ""
+
+#: .\orders\templates\index-food-shop.html:598
+msgid ""
+"When you set up a poultry farm you definetly get a lot of bang for your "
+"buck. Additionally many benefits come from it e.g people in the community "
+"get jobs as well as get market for their farm produce."
+msgstr ""
+
+#: .\orders\templates\index.html:5 .\orders\templates\index.html:15
+#: .\orders\templates\layout.html:144
+msgid "All Orders"
+msgstr "Toutes les Commandes"
+
+#: .\orders\templates\index.html:27
+msgid "Phone"
+msgstr ""
+
+#: .\orders\templates\index.html:30
+#, fuzzy
+#| msgid "Product ID"
+msgid "Product"
+msgstr "Product ID"
+
+#: .\orders\templates\index.html:31
+#, fuzzy
+#| msgid "Payment Options"
+msgid "Payment Option"
+msgstr "Options de paiement"
+
+#: .\orders\templates\index.html:32
+#, fuzzy
+#| msgid "Subtotal"
+msgid "Total"
+msgstr "Sous-Total"
+
+#: .\orders\templates\index.html:33
+#, fuzzy
+#| msgid "Order Status :"
+msgid "Status"
+msgstr "État"
+
+#: .\orders\templates\inventory.html:5 .\orders\templates\inventory.html:15
+#: .\orders\templates\new_inventory.html:7
+#, fuzzy
+#| msgid "Savane Staff Data"
+msgid "Savane Inventory Data"
+msgstr "Données du personnel la Savane"
+
+#: .\orders\templates\layout.html:47
+msgid "SOLUTIONS"
+msgstr "SOLUTIONS"
+
+#: .\orders\templates\layout.html:64
+msgid "SAVANE POULTRY FARM MS"
+msgstr "SYSTEME DE MANGEMENT DE LA FERME"
+
+#: .\orders\templates\layout.html:68
+msgid "My profile"
+msgstr "Mon Compte"
+
+#: .\orders\templates\layout.html:71 .\orders\templates\layout.html:249
+msgid "Logout"
+msgstr "Sortir"
+
+#: .\orders\templates\layout.html:117
+msgid "MATERIAL&nbsp;ADMIN"
+msgstr "ADMINISTRATION"
+
+#: .\orders\templates\layout.html:130
+msgid "Dashboard"
+msgstr "Tableau de board"
+
+#: .\orders\templates\layout.html:139
+msgid "Order"
+msgstr "Commande"
+
+#: .\orders\templates\layout.html:154
+msgid "Capacity"
+msgstr "Capacité"
+
+#: .\orders\templates\layout.html:158
+msgid "Add Day's Collection"
+msgstr "Ajouter Ramassage du jour"
+
+#: .\orders\templates\layout.html:159
+msgid "All Collections"
+msgstr "Toutes les Colletes"
+
+#: .\orders\templates\layout.html:169
+msgid "Employees"
+msgstr "Employés"
+
+#: .\orders\templates\layout.html:173
+msgid "Add New Employee"
+msgstr "Ajouter New Employé"
+
+#: .\orders\templates\layout.html:174
+msgid "All Employees"
+msgstr "Tous les Employés"
+
+#: .\orders\templates\layout.html:184
+msgid "Customers"
+msgstr "Clients"
+
+#: .\orders\templates\layout.html:188 .\orders\templates\new_client.html:7
+#: .\orders\templates\new_client.html:19
+msgid "Add New Customer"
+msgstr "Ajouter Nouveau Client"
+
+#: .\orders\templates\layout.html:199
+msgid "Suppliers"
+msgstr "Fournisseurs"
+
+#: .\orders\templates\layout.html:203
+msgid "Add Supplier"
+msgstr "Ajouter Fournisseur"
+
+#: .\orders\templates\layout.html:218 .\orders\templates\newexpense.html:7
+#: .\orders\templates\newexpense.html:19
+msgid "Add Expense"
+msgstr "Ajouter Dépenses"
+
+#: .\orders\templates\layout.html:219
+msgid "All Expenses"
+msgstr "Toutes les Dépenses"
+
+#: .\orders\templates\layout.html:233
+msgid "Add Item"
+msgstr "Ajouter Produit"
+
+#: .\orders\templates\layout.html:234
+msgid "All Items"
+msgstr "Tous les Produit"
+
+#: .\orders\templates\layout.html:244
+msgid "Profile"
+msgstr "Compte"
+
+#: .\orders\templates\layout.html:260
+msgid "Copyleft"
+msgstr "Copyleft"
+
+#: .\orders\templates\layout.html:260
+msgid "All wrongs reserved!"
+msgstr "Tous Droits Réservés!"
+
+#: .\orders\templates\new.html:7
+#, fuzzy
+#| msgid "Add Order"
+msgid "Add Orders"
+msgstr "Ajouter une Commande"
+
+#: .\orders\templates\new_client.html:34
+#, fuzzy
+#| msgid "Customers"
+msgid "Customer's Name"
+msgstr "Clients"
+
+#: .\orders\templates\new_client.html:38
+#, fuzzy
+#| msgid "Customers"
+msgid "Customer's Telephone"
+msgstr "Clients"
+
+#: .\orders\templates\new_client.html:42
+#, fuzzy
+#| msgid "Customers"
+msgid "Customer's Address"
+msgstr "Clients"
+
+#: .\orders\templates\new_client.html:50
+#, fuzzy
+#| msgid "Customers"
+msgid "Customer's E-mail"
+msgstr "Clients"
+
+#: .\orders\templates\new_inventory.html:19
+#, fuzzy
+#| msgid "Add New Customer"
+msgid "Add New Items to Inventory"
+msgstr "Ajouter Nouveau Client"
+
+#: .\orders\templates\new_staff.html:7 .\orders\templates\new_staff.html:19
+#, fuzzy
+#| msgid "Add New Customer"
+msgid "Add New Staff"
+msgstr "Ajouter Nouveau Client"
+
+#: .\orders\templates\new_supplier.html:7
+#: .\orders\templates\new_supplier.html:19
+#, fuzzy
+#| msgid "Add Supplier"
+msgid "Add New Supplier"
+msgstr "Ajouter Fournisseur"
+
+#: .\orders\templates\registration\index-food-shop.html:545
+msgid ""
+"Savane Poultry Farm is all about using modern methods in farming and\n"
+"                    agriculture worldwide.Modern farming methods help to "
+"grow the poultry business profit\n"
+"                    more than traditional rearing methods. We believe that "
+"sufficient information is a must\n"
+"                    for agricultural or farming revolution. "
+msgstr ""
+"C'est une entreprise familiale d’esprit entrepreneurial et communautaire. "
+"Nos poules pondeuses sont nourris de 65%% des céréales produits localement, "
+"dont nous cultivonsnous-mêmes les 10%% et le reste provient des agriculteurs "
+"dela communauté"
+
+#: .\orders\templates\registration\index-food-shop.html:550
+#, fuzzy
+#| msgid ""
+#| "Most farmers around the world are using traditional farming methods which "
+#| "they inherited\n"
+#| "from their family. Those farmers are not gaining desired production and "
+#| "output of their\n"
+#| "                    labor.\n"
+#| "                    By using modern farming methods and the latest "
+#| "technology in farming, they can increase\n"
+#| "                    their production and profits many times, more than "
+#| "ever. "
+msgid ""
+"Most farmers around the world are using traditional farming methods which "
+"they inherited\n"
+"                    from their family. Those farmers are not gaining desired "
+"production and output of their\n"
+"                    labor.\n"
+"                    By using modern farming methods and the latest "
+"technology in farming, they can increase\n"
+"                    their production and profits many times, more than ever. "
+msgstr ""
+"part des agriculteurs du monde entier utilisent desméthodes agricoles "
+"traditionnelles dont ils ont hérité de leurs ancêtres. Ces agriculteurs "
+"n'obtiennent pas la production et le rendement souhaités. En utilisant des "
+"méthodes agricoles modernes et les dernières technologies agricoles, ils "
+"peuvent augmenterleur production et profite plusieurs fois, plus quejamais."
+
+#: .\orders\templates\registration\index-food-shop.html:556
+msgid ""
+"Modern farming can also be a great source of employment and income. "
+"Unemployed people can\n"
+"                    start agribusiness and make a strong economy and hunger "
+"free world. If you have any questions,\n"
+"                    suggestions, or want to share your farming experiences, "
+"then feel free to contact us at info@savane.com"
+msgstr ""
+"L'agriculture moderne peut également être une excellente source d'emplois et "
+"de revenus.Les chômeurs peuvent démarrer l'agro-industrie et bâtir une "
+"économie forte et un monde sans faimSi vous avez des questions, des "
+"suggestions ou si voussouhaitez partager vos expériences agricoles, ou "
+"investir dansce project, n'hésitez pas à nous contacter, à info@savane.com"
+
+#: .\orders\templates\registration\index-food-shop.html:602
+msgid "The Best Organic Store!"
+msgstr "Le Meilleur Magasin Bio!"
+
+#: .\orders\templates\registration\login.html:47
+#, fuzzy
+#| msgid "Welcome to Lasavane Poultry Farm"
+msgid "Welcome to Savane Poultry Farm"
+msgstr "Bienvenue à la Ferme de Lasavane"
+
+#: .\orders\templates\registration\login.html:57
+msgid "Error!"
+msgstr "Error!"
+
+#: .\orders\templates\registration\login.html:57
+msgid "Your username and password didn't match. Please try again."
+msgstr ""
+"Votre nom d’utilisateur et votre mot de passe ne correspondait pas. Veuillez "
+"réessayer"
+
+#: .\orders\templates\registration\login.html:64
+msgid "Username"
+msgstr "Nom"
+
+#: .\orders\templates\registration\login.html:68
+#, fuzzy
+#| msgid "Change Password"
+msgid "Password"
+msgstr "Changer ton Mot de passe"
+
+#: .\orders\templates\registration\login.html:82
+msgid "BACK"
+msgstr ""
+
+#: .\orders\templates\show.html:7
+#, fuzzy
+#| msgid "Order"
+msgid "Print Order"
+msgstr "Imprimer l’ordre"
+
+#: .\orders\templates\show.html:15
+msgid "Invoice"
+msgstr "Facture"
+
+#: .\orders\templates\show.html:54
+msgid "Prepared for"
+msgstr "Préparé pour "
+
+#: .\orders\templates\show.html:72
+msgid "DELEVERY DATE :"
+msgstr "Date de livraison"
+
+#: .\orders\templates\show.html:89
+msgid "ITEM(S)"
+msgstr ""
+
+#: .\orders\templates\show.html:91 .\orders\templates\show.html:109
+msgid "TOTAL"
+msgstr "TOTAL"
+
+#: .\orders\templates\show.html:104
+msgid ""
+"Our Service Levels are designed to give you the greatest value and "
+"flexibility of service"
+msgstr ""
+
+#: .\orders\templates\show.html:105
+msgid "THANK YOU FOR YOUR BUSINESS"
+msgstr ""
+
+#: .\orders\templates\show.html:107
+msgid "Received By"
+msgstr "Received Par"
+
+#: .\orders\templates\staff.html:5
+msgid "Savane Staff Data "
+msgstr "Données du personnel la Savane"
+
+#: .\orders\templates\staff.html:15
+msgid "Savane Staff Data"
+msgstr "Données du personnel la Savane"
+
+#: .\orders\templates\supplier.html:5 .\orders\templates\supplier.html:15
+#, fuzzy
+#| msgid "Savane Staff Data"
+msgid "Savane Supplier Data"
+msgstr "Données sur les fournisseurs"
+
+#~ msgid "Standalone"
+#~ msgstr "Autonomie"
+
+#~ msgid "Made With Love by DawnInc"
+#~ msgstr "Fait Avec Passion DawnInc"
+
+#~ msgid "SAVANE POULTRY FARM"
+#~ msgstr "FERME AVICOLE SAVANE"
+
+#~ msgid "DESCRIPTION"
+#~ msgstr "DESCRIPTION"
+
+#~ msgid "Read More"
+#~ msgstr "Plus d'infos"

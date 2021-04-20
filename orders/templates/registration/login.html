@@ -1,0 +1,103 @@
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+        <link href="{% static 'img/favicon.ico' %}" rel="icon">
+		<title>{% trans "Login"%} | Savane Poultry</title>
+
+		<!-- BEGIN META -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="your,keywords">
+		<meta name="description" content="Short explanation about this website">
+		<!-- END META -->
+
+		<!-- BEGIN STYLESHEETS -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:300italic,400italic,300,400,500,700,900' rel='stylesheet' type='text/css'/>
+		<link type="text/css" rel="stylesheet" href="{% static 'css/bootstrap.css' %}" />
+		<link type="text/css" rel="stylesheet" href="{% static 'css/materialadmin.css' %}" />
+		<link type="text/css" rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}" />
+		<link type="text/css" rel="stylesheet" href="{% static 'css/material-design-iconic-font.min.css' %}" />
+		<!-- END STYLESHEETS -->
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="../../assets/js/libs/utils/html5shiv.js?1403934957"></script>
+		<script type="text/javascript" src="../../assets/js/libs/utils/respond.min.js?1403934956"></script>
+		<![endif]-->
+	</head>
+	<body class="menubar-hoverable header-fixed ">
+
+		<!-- BEGIN LOGIN SECTION -->
+		<section class="section-account">
+			<div class="img-backdrop" style="">
+            </div>
+			<!--<div class="spacer"></div>-->
+			<div class="card contain-sm style-transparent" style="max-width:450px">
+				<div class="card-body">
+                    <div class="img-rounded"> <img style="display: block; width:inherit; max-width: inherit; height: auto; margin-left: auto; margin-right: auto; " src = "{% static 'img/savane1.png' %}"></div>
+					<br/>
+					<div class="card">
+						<div class="card-body">
+							<span class="text-lg text-bold text-primary">{% trans "Welcome to Savane Poultry Farm" %}</span>
+							<br/><br/>
+							<form class="form floating-label" action="{% url 'login' %}" accept-charset="utf-8" method="post">
+
+		                        {% csrf_token %}
+
+		                        {% if form.errors %}
+
+		                            <div class="alert alert-danger">
+		                                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		                                <strong>{% trans "Error!" %}</strong> {% trans "Your username and password didn't match. Please try again." %}
+		                            </div>
+
+		                        {% endif %}
+
+								<div class="form-group">
+									{{ form.username|add_class:"form-control" }}
+									<label for="username">{% trans "Username" %}</label>
+								</div>
+								<div class="form-group">
+									{{ form.password|add_class:"form-control" }}
+									<label for="password">{% trans "Password" %}</label>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-6 text-left">
+
+									</div><!--end .col -->
+									<div class="col-xs-6 text-right">
+										<button class="btn btn-primary btn-raised" type="submit">{% trans "Login" %}</button>
+									</div><!--end .col -->
+								</div><!--end .row -->
+							</form>
+
+                                    <div class="col-xs-6 text-left">
+                                        <a href="{% url 'index-food-shop' %}"><strong>{% trans "BACK" %}</strong></a>
+									</div>
+                                </div>
+						</div>
+					</div>
+				</div><!--end .card -->
+			</div>
+			<em class="text-caption text-center" style="margin-bottom: 0px">Copyright © {% now 'Y' %} SAVANE. All rights reserved</em>
+            <p class="text-center">BY <strong><span style="color: green">OMICRON</span></strong></p>
+        <!-- ORIGINAL  -->
+		</section>
+		<!-- END LOGIN SECTION -->
+
+		<!-- BEGIN JAVASCRIPT -->
+		<script src="{% static 'js/libs/jquery/jquery-1.11.2.min.js' %}"></script>
+		<script src="{% static 'js/libs/bootstrap/bootstrap.min.js' %}"></script>
+
+		<script src="{% static 'js/core/AppForm.js' %}"></script>
+		<!-- END JAVASCRIPT -->
+
+	</body>
+</html>

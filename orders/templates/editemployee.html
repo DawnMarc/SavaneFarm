@@ -1,0 +1,84 @@
+{% extends 'layout.html' %}
+
+{% load i18n %}
+
+{% load widget_tweaks %}
+
+{% block title %} {% trans "Edit Staff" %} {% endblock %}
+
+{% block body %}
+
+                <section>
+					<div class="section-body">
+						<div class="row">
+
+							<!-- BEGIN  - FORM -->
+							<div class="col-lg-12">
+								<div class="card">
+									<div class="card-head style-primary">
+										<header>{% trans "Edit Staff Data" %}</header>
+										<div class="tools">
+											<a class="btn btn-icon-toggle btn-collapse"><i class="fa fa-angle-down"></i></a>
+											<a class="btn btn-icon-toggle btn-close"><i class="md md-close"></i></a>
+										</div>
+									</div>
+									<div class="card-body">
+
+										<form class="form" role="form" action="" method="post"> {% csrf_token %}
+
+											<div class="row">
+												<div class="col-sm-6">
+
+													<div class="form-group floating-label">
+														{{ form.fname | add_class:'form-control' }}
+														<label for="regular">{% trans "First Name" %}</label>
+													</div>
+													<div class="form-group floating-label">
+														{{ form.lname | add_class:'form-control' }}
+														<label for="regular1">{% trans "Last Name" %}</label>
+													</div>
+													<div class="form-group floating-label">
+														{{ form.tel | add_class:'form-control' | attr:'rows:2'}}
+														<label for="regular2">{% trans "Telephone Number" %}</label>
+													</div>
+
+												</div>
+												<div class="col-sm-6">
+													<header ></header>
+													<div class="form-group floating-label">
+														{{ form.address | add_class:'form-control' | attr:'rows:2'}}
+														<label for="regular2">{% trans "Home Address" %}</label>
+													</div>
+                                                    <div class="form-group floating-label">
+														{{ form.email | add_class:'form-control' | attr:'rows:2'}}
+														<label for="regular2">{% trans "Email Address" %}</label>
+													</div>
+                                                    <div class="form-group floating-label">
+														{{ form.role | add_class:'form-control' | attr:'rows:2'}}
+														<label for="regular2">{% trans "Staff Role" %}</label>
+													</div>
+
+												<div class="col-md-12">
+													<hr>
+													<div class="card-actionbar-row">
+														<input type="submit" class="btn btn-flat btn-primary ink-reaction" value="SUBMIT">
+													</div>
+												</div>
+											</div>
+                                                </div>
+                                        </form>
+                                            </div>
+                                            </div>
+
+
+                                    </div>
+									</div><!--end .card-body -->
+								</div><!--end .card -->
+							</div><!--end .col -->
+							<!-- END FORM - TIME ON SITE -->
+
+						</div><!--end .row -->
+					</div><!--end .section-body -->
+				</section>
+
+{% endblock %}
